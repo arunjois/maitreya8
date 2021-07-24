@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  maitreya8:
+    image: maitreya8
+    build:
+      context: .
+      dockerfile: ./Dockerfile
